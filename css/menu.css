@@ -1,0 +1,38 @@
+body {
+    background-color: white;
+    margin: 0; 
+    padding: 0; 
+}
+.center {
+    text-align: center;
+    font-family: "Times New Roman", serif;
+    font-size: 17px;
+}
+.header-font {
+    font-family: Garamond, serif;
+    font-weight: lighter;
+    font-size: 45px;
+    letter-spacing: 0.05cm;
+    margin-bottom: 20px;
+}
+.inline {
+    display: inline-block;
+    width: 13%; 
+    margin: 0 0px;
+    font-family: Garamond, serif;
+    font-weight: lighter;
+    letter-spacing: 0.1cm;
+    font-size: 13px;
+    margin-bottom: 30px;
+}
+a.menu-link {
+    text-decoration: none;
+    color: inherit;
+}
+a.menu-link:visited {
+    color: inherit;
+}
+a.menu-link:hover {
+    color: #ee8f8f;
+    border-bottom: 1px solid #ee8f8f;
+}

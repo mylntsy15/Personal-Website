@@ -1,0 +1,35 @@
+.hello-text {
+    font-family: "Lucida Console", monospace;
+    font-size: 35px;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    background-color: #F4EDD7;
+}
+.image-container p {
+    margin-top: 10px;
+    max-width: 550px;
+}
+.blog-text {
+    text-align: left;
+    font-weight: lighter;
+    margin-bottom: 20px;
+}
+.contact-button {
+    background-color: white;
+    color: black;
+    padding: 15px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 12px;
+    margin-top: 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+.contact-button:hover {
+    background-color: grey; 
+}

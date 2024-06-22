@@ -1,0 +1,45 @@
+.contact-link {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.contact-text {
+    font-family: "Lucida Console", monospace;
+    font-size: 30px;
+    padding-top: 20px;
+}
+.table-container {
+    margin-left: 490px;
+    padding-bottom: 20px;
+    border-collapse: collapse;
+    width: 60%;
+}
+.table-container th, .table-container td {
+    border: 2px solid #ee8f8f;
+    text-align: left;
+    padding: 10px;
+}
+.table-container th {
+    background-color: white;
+}
+.table-container tr:nth-child(even) {
+    background-color: #ee8f8f;
+}
+.table-container tr:nth-child(odd) {
+    background-color: white;
+}
+.table-container tr:hover {
+    background-color: rgb(177, 175, 175);
+}
+.bg-color{
+    background-color: #F4EDD7;
+}
+.platform-logo {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+.platform-name {
+    vertical-align: middle;
+}

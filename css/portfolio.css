@@ -1,0 +1,122 @@
+.portfolio-link {
+    font-weight: bold;
+    border-bottom: 1px solid black;
+}
+.rounded-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 30px;
+    overflow: hidden;
+    margin: 0 auto 20px auto;
+}
+.rounded-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}   
+.name {
+    font-size: 19px;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+.position-statement {
+    background-color: #f1b7b7;
+    color: black;
+    border-radius: 30px;
+    margin: auto;
+    font-size: 17px;
+    width: 150px;
+    text-align: center;
+}
+ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: left;
+}
+li {
+    margin-top: 18px;
+}
+.icon-logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 7px;
+    vertical-align: middle;
+}
+.edu-detail{
+    margin-left: 31.2px;
+}
+.contact-button {
+    background-color: #f1b7b7;
+    color: black;
+    font-weight: bold;
+    padding: 10px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 15px;
+}
+.contact-button:hover {
+    background-color: whitesmoke; 
+}
+
+.rounded-box {
+    width: 230px;
+    max-width: 230px;
+    margin-bottom: 20px;
+    margin-left: 70px;
+    border-radius: 20px;
+    background-color: #F4EDD7;
+    padding: 15px;  
+    flex-grow: 1; 
+    padding-bottom: 250px;
+}
+.roundedsec-box {
+    width: 900px;
+    max-width: 900px;
+    margin-bottom: 5px;
+    margin-left: 20px;
+    border-radius: 15px;
+    background-color: #F4EDD7;
+    padding: 15px; 
+    padding-bottom: 1px; 
+    flex-grow: 1; 
+}
+.box-container {
+    display: flex;
+    justify-content: baseline;
+    align-items:flex-start;
+    flex-direction: row;
+}
+.container-column{
+    display: flex;
+    justify-content: baseline;
+    align-items:flex-start;
+    flex-direction: column;
+}
+.professional-summary{
+    margin: 0;
+    padding: 0;
+    text-align: left;
+    align-items: flex-start; 
+}
+.caption-text{
+    text-align: justify;
+    font-size: 16px;
+}
+.tablesec-container {
+    margin-left: 1px;
+    margin-bottom: 10px;
+    border-collapse: separate;
+    border-spacing: 10px;
+}
+.tablesec-container th, .tablesec-container td {
+    border: 1px solid #ecc1c1;
+    text-align: left;
+    padding: 10px;
+    border-radius: 15px;
+    width: 200px;
+}
